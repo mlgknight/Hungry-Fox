@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #00d301;
+    margin-bottom: 4px;
+    color: #00d301;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+button {
+    font-weight: bold;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 10;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    background: #00d301;
+    background: -webkit-linear-gradient(-196deg,#00d301,#36c275 50%,#00a562);
+    background: -webkit-linear-gradient(164deg,#00d301,#36c275 50%,#00a562);
+    background: linear-gradient(286deg,#00d301,#36c275 50%,#00a562);
+    transition: background,color .1s ease-in-out;
+    
+}
+
+#delete-btn {
+    background: white;
+    color: #00d301;
+    border: 1px solid #00d301;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #000000;
+}
+
+.Item-list{
+
+    font-weight: bold;
+    list-style: none;
+    color: #00d301;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
